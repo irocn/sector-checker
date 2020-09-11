@@ -8,11 +8,11 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.0.1
 
 ## Usage
 ### step 1, export the environment variable
-FIL_PROOFS_PARENT_CACHE=<YOUR_PARENT_CACHE>
-FIL_PROOFS_PARAMETER_CACHE=<YOUR_FIL_PROOFS_PARAMETER_CACHE>
-FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 
-RUST_LOG=info FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
-FIL_PROOFS_MAXIMIZE_CACHING=1
+ - export FIL_PROOFS_PARENT_CACHE=<YOUR_PARENT_CACHE>
+ - export FIL_PROOFS_PARAMETER_CACHE=<YOUR_FIL_PROOFS_PARAMETER_CACHE>
+ - export FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 
+ - export RUST_LOG=info FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
+ - export FIL_PROOFS_MAXIMIZE_CACHING=1
 ### step 2, run the tool 
 $>sector-sanity-checker sealing --cidcommr=<sector_cidcommr>  --number=<sector_id> --sector-size=32GiB --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
 
