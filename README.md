@@ -23,6 +23,8 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.2.0
  You may use lotus-miner sectors status --log <sector-id> to find the --cidcommr. or use the script sector-info.sh
  
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
+
+![image](https://github.com/irocn/sector-sanity-checker/blob/master/Screen%20Shot%202020-09-12%20at%2002.01.47.png)
 ## donate
 If the tool help you, please donate 1 FIL to us.
  - Wallet Address: t3qtvkskn35hjj4sg2r3ce2j7x3arqcv7nexhhzthktfhpslc4agpkdq434kf5xh64nkzl7mix5cexwayhtgja  
