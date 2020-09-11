@@ -13,6 +13,7 @@ FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1
 RUST_LOG=info FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
 FIL_PROOFS_MAXIMIZE_CACHING=1
 $>sector-sanity-checker sealing --cidcommr=<sector_cidcommr>  --number=<sector_id> --sector-size=32GiB --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
+
 For Example:
 $>sector-sanity-checker sealing --cidcommr=bagboea4b5abcbkyyzhl37s5kyjjegeysedpczhija7cczazapavjejbppck57b2z --number=1000 --miner-addr=t### --sector-size=32GiB --storage-dir=/opt/data/storage
 
