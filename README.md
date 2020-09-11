@@ -21,6 +21,7 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.0.1
  - $>sector-sanity-checker sealing --cidcommr=bagboea4b5abcbkyyzhl37s5kyjjegeysedpczhija7cczazapavjejbppck57b2z --number=1000 --miner-addr=t### --sector-size=32GiB --storage-dir=/opt/data/storage
  
  You may use lotus-miner sectors status --log <sector-id> to find the --cidcommr. 
+ 
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
 ## donate
 If the tool help you, please donate 1 FIL to us.
