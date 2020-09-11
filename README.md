@@ -15,9 +15,11 @@ FIL_PROOFS_MAXIMIZE_CACHING=1
 $>sector-sanity-checker sealing --cidcommr=<sector_cidcommr>  --number=<sector_id> --sector-size=32GiB --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
 
 For Example:
+
 $>sector-sanity-checker sealing --cidcommr=bagboea4b5abcbkyyzhl37s5kyjjegeysedpczhija7cczazapavjejbppck57b2z --number=1000 --miner-addr=t### --sector-size=32GiB --storage-dir=/opt/data/storage
 
 You may use lotus-miner sectors status --log <sector-id> to find the --cidcommr. 
-  
+
+# donate
 If the tool help you, please donate 1 FIL to us.
 Wallet Address: t3qtvkskn35hjj4sg2r3ce2j7x3arqcv7nexhhzthktfhpslc4agpkdq434kf5xh64nkzl7mix5cexwayhtgja  
