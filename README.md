@@ -1,10 +1,10 @@
-## sector-sanity-checker
+## sector-sanity-checker-v0.2.0
 
 This tools can help you check sector to avoid the window PoST fail.
 
 ## Download
 
-https://github.com/irocn/sector-sanity-checker/releases/tag/v0.0.1
+https://github.com/irocn/sector-sanity-checker/releases/tag/v0.2.0
 
 ## Usage
 ### step 1, export the environment variable
