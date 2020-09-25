@@ -1,10 +1,10 @@
-## sector-sanity-checker-v0.2.0
+## sector-sanity-checker-v0.3.0
 
 This tools can help you check sector to avoid the window PoST fail.
 
 ## Download
 
-https://github.com/irocn/sector-sanity-checker/releases/tag/v0.2.0
+https://github.com/irocn/sector-sanity-checker/releases/tag/v0.3.0
 
 ## Usage
 ### step 1, export the environment variable
@@ -13,15 +13,20 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.2.0
  - export FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1 
  - export RUST_LOG=info FIL_PROOFS_USE_GPU_TREE_BUILDER=1 
  - export FIL_PROOFS_MAXIMIZE_CACHING=1
+ - export MINER_API_INFO=<YOUR_MINER_API_INFO>
 ### step 2, run the tool 
- - $>sector-sanity-checker sealing --cidcommr=<sector_cidcommr>  --number=<sector_id> --sector-size=32GiB --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
-
+ - $>sector-sanity-checker checking  --sector-size=32G --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
+ - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=$1 --miner-addr=<your_miner_id> --storage-dir=<sector_dir>
+ 
 ### For Example:
 
- - $>sector-sanity-checker sealing --cidcommr=bagboea4b5abcbkyyzhl37s5kyjjegeysedpczhija7cczazapavjejbppck57b2z --number=1000 --miner-addr=t### --sector-size=32GiB --storage-dir=/opt/data/storage
+ - $>sector-sanity-checker checking  --sector-size=32G --miner-addr=t### --storage-dir=/opt/data/storage
+ Then all the sectors under /opt/data/storage/sealed/s-xxxxx-xxx will be scaned.
  
- You may use lotus-miner sectors status --log <sector-id> to find the --cidcommr. or use the script sector-info.sh
+ - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=sectors-to-scan.txt --miner-addr=t### --storage-dir=/opt/data/storage
+ Then all the sectors both under /opt/data/storage/sealed/s-xxxxx-xxx  and the numbers in the file sectors-to-scan.txt will be scaned. The file sectors-to-scan.txt contains the sector numbers to be scaned, each number has one line.
  
+  
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
 
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/Screen%20Shot%202020-09-12%20at%2002.01.47.png)
