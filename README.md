@@ -16,7 +16,7 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.3.0
  - export MINER_API_INFO=<YOUR_MINER_API_INFO>
 ### step 2, run the tool 
  - $>sector-sanity-checker checking  --sector-size=32G --miner-addr=<your_miner_id> --storage-dir=<sector_dir> 
- - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=$1 --miner-addr=<your_miner_id> --storage-dir=<sector_dir>
+ - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=<sectors-to-scan> --miner-addr=<your_miner_id> --storage-dir=<sector_dir>
  
 ### For Example:
 
@@ -24,7 +24,9 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.3.0
  Then all the sectors under /opt/data/storage/sealed/s-xxxxx-xxx will be scaned.
  
  - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=sectors-to-scan.txt --miner-addr=t### --storage-dir=/opt/data/storage
- Then all the sectors both under /opt/data/storage/sealed/s-xxxxx-xxx  and the numbers in the file sectors-to-scan.txt will be scaned. The file sectors-to-scan.txt contains the sector numbers to be scaned, each number has one line.
+ Then all the sectors specified by sectors-to-scan.txt  under folder /opt/data/storage will be scaned. 
+ --  The file sectors-to-scan.txt contains the sector numbers to be scaned, each number has one line.
+ --  The folder /opt/data/storage contains folder sealed and cache
  
   
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
