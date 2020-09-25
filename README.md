@@ -25,8 +25,8 @@ https://github.com/irocn/sector-sanity-checker/releases/tag/v0.3.0
  
  - $>sector-sanity-checker checking  --sector-size=32G --sectors-file-only-number=sectors-to-scan.txt --miner-addr=t### --storage-dir=/opt/data/storage
  Then all the sectors specified by sectors-to-scan.txt  under folder /opt/data/storage will be scaned. 
- --  The file sectors-to-scan.txt contains the sector numbers to be scaned, each number has one line.
- --  The folder /opt/data/storage contains folder sealed and cache
+   The file sectors-to-scan.txt contains the sector numbers to be scaned, each number has one line.
+   The folder /opt/data/storage contains folder sealed and cache
  
   
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
