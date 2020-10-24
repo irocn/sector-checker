@@ -34,6 +34,11 @@ https://github.com/irocn/sector-checker/releases/tag/sector-sanity-checker-v0.3.
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/1599813675963.jpg)
 
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/Screen%20Shot%202020-09-12%20at%2002.01.47.png)
+
+![image](https://irocn.cn/static/media/uploads/filecoin/screen_shot_2020-10-24_at_7.21.26_pm.png)
+
+## 欢迎加入掉算力讨论俱乐部
+
 ## donate
 If the tool help you, please donate 1 FIL to us.
  - Wallet Address: f3xdfcq75orlojvx66qihwwxh3emi5m2flar2y2aaevo6e37lf4zxqwlxrmzecqp3zvjn4mux7b6eqnxrxhdia
