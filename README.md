@@ -36,4 +36,4 @@ https://github.com/irocn/sector-checker/releases/tag/sector-sanity-checker-v0.3.
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/Screen%20Shot%202020-09-12%20at%2002.01.47.png)
 ## donate
 If the tool help you, please donate 1 FIL to us.
- - Wallet Address: t3qtvkskn35hjj4sg2r3ce2j7x3arqcv7nexhhzthktfhpslc4agpkdq434kf5xh64nkzl7mix5cexwayhtgja  
+ - Wallet Address: f3xdfcq75orlojvx66qihwwxh3emi5m2flar2y2aaevo6e37lf4zxqwlxrmzecqp3zvjn4mux7b6eqnxrxhdia
