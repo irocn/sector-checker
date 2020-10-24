@@ -35,7 +35,7 @@ https://github.com/irocn/sector-checker/releases/tag/sector-sanity-checker-v0.3.
 
 ![image](https://github.com/irocn/sector-sanity-checker/blob/master/Screen%20Shot%202020-09-12%20at%2002.01.47.png)
 
-![image](https://irocn.cn/static/media/uploads/filecoin/screen_shot_2020-10-24_at_7.21.26_pm.png)
+![image](https://irocn.cn/static/media/uploads/filecoin/screen_shot_2020-10-24_at_7.21.26_pm.png,width="50%")
 
 ## 欢迎加入掉算力讨论俱乐部
 
